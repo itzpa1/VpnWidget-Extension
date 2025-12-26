@@ -1,0 +1,29 @@
+{
+  "name": "VPNWidgt",
+  "description": "Shows connected server flag and location via icon/title.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": ["alarms"],
+  "host_permissions": [
+    "https://ipapi.co/*",
+    "https://flagcdn.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon.png",
+      "32": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    },
+    "default_title": "Checking server..."
+  },
+  "icons": {
+    "16": "icons/icon.png",
+    "32": "icons/icon.png",
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
+  }
+}
