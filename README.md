@@ -7,7 +7,7 @@ A lightweight VPN status indicator extension that automatically detects your con
 ---
 
 ## 🚀 Features
-- Shows VPN server flag icon dynamically (via FlagCDN)
+- Shows VPN server flag icon
 - Display Location + Country + IP on mouse hover title
 - Auto refresh every 30 seconds to detect IP/server change
 - No popup, no UI, no tracking — clean & minimal
@@ -26,7 +26,8 @@ A lightweight VPN status indicator extension that automatically detects your con
 2. Open Chrome → chrome://extensions/
 3. Enable Developer Mode
 4. Click Load Unpacked
-5. Select the vpn-server-indicator folder
+5. Select the VpnWidget-Extension folder
+6. Pin it
 
 
 ## ⚙️ Auto Server Status
